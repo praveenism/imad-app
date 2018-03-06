@@ -27,5 +27,6 @@ request.onreadystatechange=function(){
         }
     }
 };
-
+request.open('GET','http://thepraveenism.imad.hasura-app.io/counter',true);
+request.send(null);
 };
